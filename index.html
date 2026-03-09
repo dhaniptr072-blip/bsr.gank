@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BSR GANK</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f4f4;
+}
+
+header{
+    background:#222;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#444;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:orange;
+}
+
+section{
+    padding:40px;
+} 
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('bsra.jpeg');
+    background-size:cover;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:45px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+}
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.project img{
+    width:100%;
+    border-radius:10px;
+}
+
+.contact{
+    background:#222;
+    color:white;
+}
+
+.contact input,
+.contact textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+}
+
+.contact button{
+    padding:10px 20px;
+    background:orange;
+    border:none;
+    cursor:pointer;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>BSR GANK</h1>
+<p>mau tune up atau bore up semua bisa</p>
+</header>
+
+<nav>
+<a href="#home">Beranda</a>
+<a href="#about">Tentang</a>
+<a href="#project">Project</a>
+<a href="#contact">Kontak</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>bengkel motor tune up bore up</h1>
+<p>Teknisi berpengalaman dan peralatan lengkap</p>
+</section>
+
+<section id="about">
+<div class="container">
+<h2>Tentang Bengkel Kami</h2>
+<p>
+bengkel kami sudah melalukan beberapa tune up dan bore up dan mengdapatkan rating 4.9
+jika motor anda ingin kencang atau ada permasalahan silah kan bawa ke bengkel kami 
+</p>
+</div>
+</section>
+
+<section id="project">
+<div class="container">
+<h2> Beberapa Project Yang Sudah Kami Kerjakan</h2>
+
+<div class="project-grid">
+
+<div class="project">
+<img src="vario.jpeg">
+<h3>bore up </h3>
+<p>bore up mesin injection.</p>
+</div>
+
+<div class="project">
+<img src="tiger.jpeg">
+<h3>tune up </h3>
+<p>tune up mesin tiger .</p>
+</div>
+
+<div class="project">
+<img src="beat karbu.jpeg">
+<h3>bore up</h3>
+<p>bore up mesin karburator.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+<h2>Kontak Kami</h2>
+
+<form>
+<input type="text" placeholder="Nama Anda" required>
+<input type="email" placeholder="Email Anda" required>
+<textarea placeholder="Pesan Anda"></textarea>
+<button>Kirim Pesan</button>
+</form>
+
+<p>
+Alamat: madura<br>
+Telp: 0877*****
+</p>
+
+</div>
+</section>
+
+<footer>
+<p>© bsr</p>
+</footer>
+
+</body>
+</html>
